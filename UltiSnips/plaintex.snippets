@@ -1,0 +1,46 @@
+snippet bdocument "Begin document with all packages" b
+\documentclass[12pt]{article}
+
+\usepackage[uft8]{inputenc}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{pslatex}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{epstopdf}
+
+\begin{document}
+$0
+\end{document}
+endsnippet
+
+snippet $ "Math env in-line"
+$$0$
+endsnippet
+
+snippet equation "Start equation env"
+\begin{equation}
+	$0
+\end{equation}
+endsnippet
+
+snippet displaymath "Start displaymath env"
+\begin{displaymath}
+	$0
+\end{displaymath}
+endsnippet
+
+snippet align "Start align env (with numbering)"
+\begin{align}
+	$0
+\end{align}
+endsnippet
+
+snippet align* "Start align env (no numbering)"
+\begin{align*}
+	$0
+\end{align*}
+endsnippet
+
